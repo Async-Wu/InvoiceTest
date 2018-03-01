@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/toolbar_normal"
+        android:id="@+id/toolbar_modifyPwd"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingTop="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_PwdUP_old"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/ed_pwdUP_old"
+                    android:drawableLeft="@mipmap/pwd"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:hint="@string/hint_pwdUPOld"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/ed_height" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_PwdUP_new"
+                android:layout_below="@+id/til_PwdUP_old"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/ed_pwdUP_new"
+                    android:drawableLeft="@mipmap/newpwd"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/white"
+                    android:hint="@string/hint_pwdUPnew"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/ed_height"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/til_PwdUP_newAgain"
+                android:layout_below="@+id/til_PwdUP_new"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/ed_pwdUP_newAgain"
+                    android:drawableLeft="@mipmap/newpwd"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="10dp"
+                    android:hint="@string/hint_pwdUPnewAagin"
+                    android:textColor="@color/white"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/ed_height"/>
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btn_modifyPwd"
+                android:layout_below="@+id/til_PwdUP_newAgain"
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:elevation="@dimen/elevation"
+                android:text="@string/btn_login"
+                android:textColor="@color/white"
+                android:background="@color/btn_color"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

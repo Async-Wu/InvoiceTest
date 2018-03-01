@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">发票验证</string>
+    <string name="company_desc">杭州用安软件 版权所有©</string>
+
+    <string name="hint_user">请输入用户名</string>
+    <string name="hint_pwd">请输入密码</string>
+    <string name="hint_userOver">用户名超过长度</string>
+    <string name="hint_pwdOver">密码超过长度</string>
+    <string name="hint_pwdUPOld">请输入旧密码</string>
+    <string name="hint_pwdUPnew">请输入新密码</string>
+    <string name="hint_pwdUPnewAagin">请再次输入新密码</string>
+    <string name="hint_pwdNowNull">密码不能为空</string>
+    <string name="hint_userNull">用户名不能为空</string>
+    <string name="hint_pwdNull">密码不能为空</string>
+    <string name="hint_invoiceCode">请输入发票编号</string>
+    <string name="hint_inputPhone">请输入手机号码</string>
+    <string name="hint_inputCheckCode">请输入验证码</string>
+
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_submit">提\t\t\t交</string>
+    <string name="btn_cancle">取消</string>
+    <string name="btn_sure">确定</string>
+    <string name="btn_scan">扫\t\t描</string>
+    <string name="btn_edit">手\t\t输</string>
+    <string name="btn_msg">发送短信</string>
+
+    <string name="toast_upPwd">确定修改密码吗？</string>
+    <string name="toast_comingSoon">敬请期待</string>
+
+    <string name="title_frogetPwd">忘记密码？</string>
+    <string name="title_backPwd">找回密码</string>
+    <string name="title_modifyPwd">修改密码</string>
+    <string name="title_alertDialog">提示</string>
+    <string name="title_main">首\t\t页</string>
+    <string name="title_upPwd">修改密码</string>
+    <string name="title_aboutUS">关于我们</string>
+    <string name="title_versionUP">版本更新</string>
+    <string name="title_setting">系统设置</string>
+    <string name="title_logOut">退出登录</string>
+    <string name="title_invoiceTest">发票认证</string>
+    <string name="title_voucher">凭证补充</string>
+    <string name="title_eximCancle">审核撤销</string>
+    <string name="title_introduce">公司介绍</string>
+    <string name="title_business">业务领域</string>
+    <string name="title_phone">联系方式</string>
+    <string name="title_address">地\t\t\t址</string>
+    <string name="title_checkCode">验证码</string>
+    <string name="title_newCode">新密码</string>
+
+    <string name="banner_one">互联网</string>
+    <string name="banner_two">开发</string>
+    <string name="banner_three">服务</string>
+
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="desc_address">杭州市 西湖区 文二路 391号西湖国际科技大厦C座507</string>
+    <string name="desc_campany">杭州用安软件有限公司前身为安易软件浙江公司，成立于1993年12月；作为浙江省最早从事会计电算化教学、考培、推广的专业机构，为浙江省会计电算化事业的普及做出了积极的贡献；会计电算化作为整个管理信息化应用的起步，促成了管理信息化应用的发展；为实现管理价值提供了坚实的保障。</string>
+    <string name="desc_business">杭州用安软件有限公司业务领域涉及中小型企业、中型企业、集团企业、行政事业单位等不同组织机构的管理软件应用。能满足企事业单位在各个发展阶段的管理需求。应用领域涉及财务会计、管理会计、供应链、生产制造、人力资源、协同办公、项目管理、客户关系管理等领域；公司对财务管理、资金管理、预算控制、成本控制、风险控制等方面具有深入的研究，公司具有深厚的行业应用咨询经验。</string>
+    <string name="desc_phone">0571-</string>
+
+
+
+</resources>

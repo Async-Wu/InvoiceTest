@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <include layout="@layout/toolbar_normal"
+        android:id="@+id/toolbar_forgetPwd"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/ed_height"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="20dp"
+                android:inputType="number"
+                android:hint="@string/hint_inputPhone"/>
+            <Button
+                android:id="@+id/btn_forgetPwd_code"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginRight="10dp"
+                android:text="@string/btn_msg"
+                android:textColor="@color/white"
+                android:elevation="@dimen/elevation"
+                android:background="@color/btn_color"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ed_height"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="20dp"
+                android:gravity="center"
+                android:text="@string/title_checkCode"
+                android:textSize="@dimen/tv_size"
+                android:textColor="@color/status_bar"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/ed_height"
+                android:layout_marginRight="20dp"
+                android:inputType="number"
+                android:hint="@string/hint_inputCheckCode"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ed_height"
+                android:layout_marginRight="10dp"
+                android:paddingLeft="20dp"
+                android:gravity="center"
+                android:text="@string/title_newCode"
+                android:textSize="@dimen/tv_size"
+                android:textColor="@color/status_bar"/>
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/ed_height"
+                android:layout_marginRight="20dp"
+                android:inputType="textPassword"
+                android:hint="@string/hint_pwdUPnew"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_forgetPwd_submint"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btn_height"
+            android:elevation="@dimen/elevation"
+            android:text="@string/btn_submit"
+            android:textColor="@color/white"
+            android:background="@color/btn_color"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
